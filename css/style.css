@@ -1,0 +1,1404 @@
+@charset "UTF-8";
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    margin: 0 auto;
+    font-family: 'Zen Old Mincho';
+}
+
+.sp {
+    display: none;
+}
+
+.mainvisual {
+    position: relative;
+    & .copy{
+      position: absolute;
+      bottom: 68%;
+      margin: auto;
+      left: 20%;
+      font-family: 'Zen Old Mincho';
+      font-weight: 400;
+      font-size: 2.7vw;
+    }
+}
+
+.cva {
+    background-image: url(../img/cta-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    padding-bottom: 60px;
+}
+
+.cva img {
+    width: 70%;
+}
+
+
+.content {
+    width: 90%;
+}
+.btn-area h2 {
+    font-weight: 400;
+    font-size: 1.2vw;
+    margin-bottom: 25px;
+}
+
+.btn-area h2 span {
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #333333;
+    padding: 1px;
+}
+
+.teiki {
+    text-align: center;
+}
+
+.teiki-application {
+    background-color: #113d7a;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #113d7a;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 1.8vw;
+    text-align: center;
+}
+
+.price {
+    color: #113d7a;
+    font-size: 4vw;
+    font-style: oblique;
+    text-align: right;
+}
+
+.price span {
+    font-size: 1.4vw;
+}
+
+.teiki img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tanpin {
+    text-align: center;
+}
+
+.tanpin-application {
+    background-color: #dadada;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid #dadada;
+    padding: 10px 30px;
+    color: #333333;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.tanpin img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.onayami {
+    position: relative;
+    & .question {
+      position: absolute;
+      bottom: 84%;
+      left: 0%;
+      right: 0;
+      text-align: center;
+      font-weight: 400;
+      font-size: 2.7vw;
+    }
+}
+
+.question span {
+    color: #017fcb;
+    font-size: 4vw;
+}
+
+
+.onayami {
+    position: relative;
+    & .care {
+        position: absolute;
+        bottom: 3%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 40%;
+    }
+}
+
+.onayami-second {
+    position: relative;
+    & .line{
+        position: absolute;
+        bottom: 95%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 0.5%;
+    }
+}
+.onayami-second {
+    position: relative;
+    & .cause {
+        position: absolute;
+        bottom: 87%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        font-weight: 400;
+        font-size: 2.7vw;
+        width: 45%;
+    }
+}
+.onayami-second {
+    position: relative;
+    & .simisiwa {
+        position: absolute;
+        bottom: 71%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 45%;
+    }
+}
+
+.simi {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+.simi-img  {
+    width: 15%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.simi .right {
+    margin: 0 0 0 20px;
+    padding: 0;
+    width: 40%;
+}
+
+.simi .simi-cause {
+    font-family: 'Noto Sans JP';
+    background-color: #a7a7a7;
+    padding: 10px;
+    color: #333;
+    font-size: 1.3vw;
+    width: fit-content;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.simi .text {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.onayami-second {
+    position: relative;
+    & .simi {
+        position: absolute;
+        bottom: 52%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+.siwa {
+    display: flex;
+}
+.siwa-img {
+    width: 15%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.siwa .right {
+    margin: 0 0 0 20px;
+    padding: 0;
+    width: 40%;
+}
+
+.siwa .siwa-cause {
+    font-family: 'Noto Sans JP';
+    background-color: #a7a7a7;
+    padding: 10px;
+    color: #333;
+    font-size: 1.3vw;
+    width: fit-content;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.siwa .right .text {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.onayami-second {
+    position: relative;
+    & .siwa{
+        position: absolute;
+        bottom: 35%;
+        left: 0;
+        right: 0;
+        justify-content: center;
+    }
+}
+
+.cause-text {
+    color: #fff;
+    background-color: #017fcb;
+    padding: 10px 20px;
+    font-family: 'Noto Sans JP';
+    font-size: 1.0vw;
+    line-height: 1.8;
+    width: 56%;
+    margin: 0 auto;
+}
+
+.explanation {
+    position: relative;
+    & .moyamoya{
+        position: absolute;
+        bottom: 80%;
+        left: 77%;
+        margin: auto;
+        width: 4%;
+    }
+}
+
+.onayami-second {
+    position: relative;
+    & .explanation{
+        position: absolute;
+        bottom: 24%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+.onayami-second {
+    position: relative;
+    & .sine{
+        position: absolute;
+        bottom: 3%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 50%;
+    }
+}
+
+.kaizen {
+    position: relative;
+    & .sonomaeni{
+        position: absolute;
+        bottom: 99%;
+        left: 22%;
+        width: 15%;
+    }
+}
+
+.dots {
+    background-image: radial-gradient(circle at center, #017fcb 20%, transparent 20%); /* 点の色とサイズ調整 */
+    background-position: top right; 
+    background-repeat: repeat-x; 
+    background-size: 1em 0.3em; 
+    padding-top: .4em; 
+    color: #017fcb;
+    font-size: 2vw;
+}
+
+.kaizen p {
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.kaizen {
+    position: relative;
+    & .text {
+        position: absolute;
+        bottom: 95%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+.kaizen {
+    position: relative;
+    & .bihaku-siwa {
+        position: absolute;
+        bottom: 65%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 50%;
+    }
+}
+.kaizen {
+    position: relative;
+    & .features {
+        position: absolute;
+        bottom: 48%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 45%;
+    }
+}
+
+.text-second {
+    line-height: 1.8;
+}
+
+.color {
+  display: inline-block;
+  background: linear-gradient(90deg, #0152a9, #0173c8 30%, #0289cb);
+  background: -webkit-linear-gradient(0deg, #0152a9, #0173c8 30%, #0289cb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2vw;
+}
+
+.second {
+    background-color: #a7a7a7;
+    padding: 3px;
+    font-family: 'Zen Kurenaido';
+}
+
+.kaizen {
+    position: relative;
+    & .text-second {
+        position: absolute;
+        bottom: 41%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 45%;
+    }
+}
+.kaizen {
+    position: relative;
+    & .lotion {
+        position: absolute;
+        bottom: 10%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 35%;
+    }
+}
+
+.attention {
+    text-align: left;
+    font-size: 0.8vw;
+}
+
+.attention li {
+    margin-bottom: 3px;
+}
+
+
+.kaizen {
+    position: relative;
+    & .attention {
+        position: absolute;
+        bottom: 3%;
+        left: 20%;
+        right: 0;
+    }
+}
+
+.benefit-text {
+    text-align: center;
+    font-size: 1.6vw;
+    line-height: 1.9;
+}
+
+.benefit-text small {
+    font-size: 1.0vw;
+}
+
+.big {
+    font-size: 2.0vw
+}
+
+.attention-second {
+    font-size: 0.9vw;
+}
+
+.benefit {
+    position: relative;
+    & .benefit-text {
+        position: absolute;
+        bottom: 38%;
+        left: 20%;
+        right: 0;
+    }
+}
+.benefit {
+    position: relative;
+    & .attention-second {
+        position: absolute;
+        bottom: 3%;
+        left: 50%;
+        right: 0;
+    }
+}
+.point-first {
+    position: relative;
+    & .features-title {
+        position: absolute;
+        bottom: 94%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 40%;
+    }
+}
+.point-first {
+    position: relative;
+    & .point {
+        position: absolute;
+        bottom: 91%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 8%;
+    }
+}
+
+.point-title {
+    display: inline-block;
+    background: linear-gradient(180deg, #6ea6cb, #3f6ea1 50%, #153d7d);
+    background: -webkit-linear-gradient(-90deg, #6ea6cb, #3f6ea1 50%, #153d7d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Zen Old Mincho';
+    text-align: center;
+    font-size: 2.9vw;
+    line-height: 1.5;
+}
+
+.point-title small {
+    font-size: 1.5vw;
+}
+
+.point-first {
+    position: relative;
+    & .point-title{
+        position: absolute;
+        bottom: 89%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+.second-title {
+    text-align: center;
+    font-size: 2.2vw;
+}
+
+.under-line {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.point-first {
+    position: relative;
+    & .second-title{
+        position: absolute;
+        bottom: 88%;
+        left: 0;
+        right: 0;
+    }
+}
+.point-first {
+    position: relative;
+    & .under-line{
+        position: absolute;
+        bottom: 87.5%;
+        left: 0;
+        right: 0;
+    }
+}
+
+.point-first .text-area {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.point-first .text-area p {
+    font-size: 1.0vw;
+    text-align: left;
+    font-family: 'Noto Sans JP';
+    line-height: 1.8;
+}
+
+.point-first {
+    position: relative;
+    & .text-area{
+        position: absolute;
+        bottom: 86%;
+        left: 0;
+        right: 0;
+    }
+}
+.point-first {
+    position: relative;
+    & .pure-niacin{
+        position: absolute;
+        bottom: 77.5%;
+        left: 0;
+        right: 0;
+        width: 50%;
+        margin: auto;
+    }
+}
+
+.point-first .text-area-second {
+    width: 40%;
+    margin: 0 auto;
+}
+.point-first .text-area-second p {
+    font-size: 1.0vw;
+    font-family: 'Noto Sans JP';
+    text-align: left;
+    line-height: 1.8;
+}
+
+.point-first {
+    position: relative;
+    & .text-area-second{
+        position: absolute;
+        bottom: 76.5%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+.attention-second {
+    text-align: left;
+    font-size: 0.8vw;
+}
+
+.attention-second li {
+    margin-bottom: 3px;
+}
+
+
+.point-first {
+    position: relative;
+    & .attention-second{
+        position: absolute;
+        bottom:75%;
+        left: 20%;
+        right: 0;
+    }
+}
+.bihaku img {
+    width: 60%;
+}
+
+.text-bihaku {
+    font-size: 1.0vw;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.text-bihaku p {
+    width: 54%;
+}
+
+.bihaku {
+    position: relative;
+    & .text-bihaku{
+        position: absolute;
+        bottom: 25%;
+        left: 53%;
+        right: 0;
+    }
+}
+
+.attention-bihaku {
+    font-size: 0.9vw;
+}
+
+.bihaku {
+    position: relative;
+    & .attention-bihaku{
+        position: absolute;
+        bottom: 14%;
+        left: 22%;
+        right: 0;
+    }
+}
+
+.point-first {
+    position: relative;
+    & .bihaku{
+        position: absolute;
+        bottom:70.7%;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+}
+
+.siwa-kaizen img {
+    width: 60%;
+}
+
+.text-siwakaizen {
+    font-size: 1.0vw;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.text-siwakaizen p {
+    width: 54%;
+}
+
+.siwa-kaizen {
+    position: relative;
+    & .text-siwakaizen{
+        position: absolute;
+        bottom: 25%;
+        left: 53%;
+        right: 0;
+    }
+}
+
+.point-first {
+    position: relative;
+    & .siwa-kaizen{
+        position: absolute;
+        bottom:66%;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+}
+
+.point-first {
+    position: relative;
+    & .point-second{
+        position: absolute;
+        bottom:59%;
+        left: 0;
+        right: 0;
+        width: 10%;
+        margin: auto;
+    }
+}
+
+.point-second-title {
+    display: inline-block;
+    background: linear-gradient(180deg, #6ea6cb, #3f6ea1 50%, #153d7d);
+    background: -webkit-linear-gradient(-90deg, #6ea6cb, #3f6ea1 50%, #153d7d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Zen Old Mincho';
+    text-align: center;
+    font-size: 2.9vw;
+    line-height: 1.5;    
+}
+
+.point-second-title small {
+    font-size: 1.5vw;
+}
+
+.point-first {
+    position: relative;
+    & .point-second-title{
+        position: absolute;
+        bottom: 57%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+.point-second-text {
+    width: 40%;
+}
+
+.point-second-text p {
+    font-size: 1vw;
+    text-align: left;
+    line-height: 1.8;
+    font-family: 'Noto Sans JP';
+}
+
+.point-first {
+    position: relative;
+    & .point-second-text{
+        position: absolute;
+        bottom: 53.5%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+.point-first {
+    position: relative;
+    & .person-img{
+        position: absolute;
+        bottom: 46.8%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 50%;
+    }
+}
+
+.point-second-text-area {
+    width: 40%;
+}
+
+.point-second-text-area p {
+    font-size: 1vw;
+    text-align: left;
+    line-height: 1.8;
+    font-family: 'Noto Sans JP';
+}
+
+.point-first {
+    position: relative;
+    & .point-second-text-area{
+        position: absolute;
+        bottom: 43.7%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+.point-second-attention {
+    text-align: left;
+    font-size: 0.8vw;
+}
+
+.apoint-second-attention li {
+    margin-bottom: 3px;
+}
+
+
+.point-first {
+    position: relative;
+    & .point-second-attention{
+        position: absolute;
+        bottom:41.7%;
+        left: 23%;
+        right: 0;
+    }
+}
+.point-first {
+    position: relative;
+    & .point-third {
+        position: absolute;
+        bottom:34%;
+        left: 0%;
+        right: 0;
+        margin: auto;
+        width: 8%;
+    }
+}
+
+.point-third-title {
+    display: inline-block;
+    background: linear-gradient(180deg, #6ea6cb, #3f6ea1 50%, #153d7d);
+    background: -webkit-linear-gradient(-90deg, #6ea6cb, #3f6ea1 50%, #153d7d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Zen Old Mincho';
+    text-align: center;
+    font-size: 2.9vw;
+    line-height: 1.5;      
+}
+
+.point-third-title small {
+    font-size: 1.5vw;
+}
+.point-first {
+    position: relative;
+    & .point-third-title {
+        position: absolute;
+        bottom:32%;
+        left: 0%;
+        right: 0;
+        margin: auto;
+    }
+}
+
+.ceramide {
+    display: flex;
+    justify-content: center;
+}
+
+.ceramide-img  {
+    width: 13%;
+}
+
+.ceramide .text-content {
+    width: 30%;
+}
+.ceramide p {
+    font-size: 1.0vw;
+    line-height: 1.8;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.point-first {
+    position: relative;
+    & .ceramide {
+        position: absolute;
+        bottom:28%;
+        left: 0%;
+        right: 0;
+        margin: auto;
+    }
+}
+
+.hyaluronic {
+    display: flex;
+    justify-content: center;
+}
+
+.hyaluronic-img {
+    width: 13%;
+}
+
+.hyaluronic .text-content {
+    width: 30%;
+}
+.hyaluronic p {
+    vertical-align: middle;
+    font-size: 1.0vw;
+    line-height: 1.8;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.point-first {
+    position: relative;
+    & .hyaluronic {
+        position: absolute;
+        bottom:24.5%;
+        left: 0;
+        right: 0%;
+        margin: auto;
+    }
+}
+.chinpi {
+    display: flex;
+    justify-content: center;
+}
+
+.chinpi-img {
+    width: 13%;
+}
+
+.chinpi .text-content {
+    width: 30%;
+}
+
+.chinpi p {
+    vertical-align: middle;
+    font-size: 1.0vw;
+    line-height: 1.8;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.point-first {
+    position: relative;
+    & .chinpi {
+        position: absolute;
+        bottom:21%;
+        left: 0%;
+        right: 0;
+        margin: auto;
+    }
+}
+.amachaduru {
+    display: flex;
+    justify-content: center;
+}
+
+.amachaduru-img {
+    width: 13%;
+}
+.amachaduru .text-content {
+    width: 30%;
+}
+
+.amachaduru p {
+    vertical-align: middle;
+    font-size: 1.0vw;
+    line-height: 1.8;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.point-first {
+    position: relative;
+    & .amachaduru {
+        position: absolute;
+        bottom:17.5%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+.support {
+    display: flex;
+    justify-content: center;
+}
+
+.support-img {
+    width: 13%;
+    vertical-align: middle;
+}
+
+.support .text-content {
+    width: 30%;
+}
+.support p {
+    vertical-align: middle;
+    font-size: 1.0vw;
+    line-height: 1.8;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.point-first {
+    position: relative;
+    & .support {
+        position: absolute;
+        bottom:14%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+.point-third-attention {
+    text-align: left;
+    font-size: 0.8vw;
+}
+
+.point-third-attention li {
+    margin-bottom: 3px;
+}
+
+
+.point-first {
+    position: relative;
+    & .point-third-attention{
+        position: absolute;
+        bottom:12.7%;
+        left: 28%;
+        right: 0;
+        margin: auto;
+    }
+}
+
+.point-first {
+    position: relative;
+    & .benefit-second {
+        position: absolute;
+        bottom: 10.5%;
+        left: 20%;
+        right: 0;
+        width: 20%;
+    }
+}
+.point-first {
+    position: relative;
+    & .benefit-text {
+        position: absolute;
+        bottom: 3%;
+        left: 16%;
+        right: 0;
+        width: 50%;
+    }
+}
+
+.voice-title {
+    text-align: center;
+    font-size: 1.2vw;
+    margin-top: 100px;
+}
+
+.under-bar {
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.voice h2 {
+    color: #017fcb;
+    text-align: center;
+    font-size: 4.5vw;
+    font-style: italic;
+}
+
+.graph {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.voice-text {
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+.voice-text span {
+    font-size: 3.5vw;
+}
+
+.flex {
+    display: flex; /*横並び*/
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.flex .image {
+    width: 300px; /*画像サイズ指定*/
+    margin: 0;
+    padding: 0;
+}
+
+.flex .image img {
+    width: 50%;
+    height: auto;
+}
+
+.flex .right {
+    margin-left: 5px;
+}
+
+.flex .title {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 1.3vw;
+    border-bottom: solid;
+    padding-bottom: 5px;
+    text-align: right;
+}
+
+.flex .text {
+    margin: 10px 0 0;
+    padding: 0;
+    line-height: 1.8;
+    font-size: 1.0vw;
+}
+.flex .left {
+    margin-right: 150px;
+}
+
+.flex .left .title {
+    text-align: left;
+}
+
+.use .bg {
+    margin-top: 100px;
+}
+
+.use {
+    position: relative;
+    & .title {
+        position: absolute;
+        bottom: 81%;
+        left: 0;
+        right: 0;
+        width: 40%;
+        margin: auto;
+    }
+}
+
+.use-flex {
+    display: flex;
+}
+
+.step-img {
+    width: 15%;
+}
+
+.use-right {
+    margin-left: 40px;
+}
+.use-title {
+    font-size: 2.0vw;
+    color: #017fcb;
+    margin-bottom: 10px;
+}
+
+.use-text {
+    font-size: 1.0vw;
+    line-height: 1.8;
+}
+
+.use {
+    position: relative;
+    & .use-flex {
+        position: absolute;
+        bottom: 65%;
+        left: 25%;
+        right: 0;
+    }
+}
+
+.use-flex-second {
+    display: flex;
+}
+
+.use {
+    position: relative;
+    & .use-flex-second {
+        position: absolute;
+        bottom: 53%;
+        left: 38%;
+        right: 0;
+    }
+}
+
+.use-flex-third {
+    display: flex;
+}
+
+.use {
+    position: relative;
+    & .use-flex-third {
+        position: absolute;
+        bottom: 38%;
+        left: 26%;
+        right: 0;
+    }
+}
+.use {
+    position: relative;
+    & .step-dot {
+        position: absolute;
+        bottom: 61%;
+        left: 34%;
+        right: 0;
+        width: 3%;
+    }
+}
+.use {
+    position: relative;
+    & .step-dot-second {
+        position: absolute;
+        bottom: 48.6%;
+        left: 34%;
+        right: 0;
+        width: 3%;
+    }
+}
+.use {
+    position: relative;
+    & .procedure {
+        position: absolute;
+        bottom: 28%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 40%;
+    }
+}
+
+.item li {
+    list-style: none;
+    padding-left: 0;
+}
+
+.item li img {
+    width: 90%;
+    height: auto;
+}
+
+.item li a:hover {
+    opacity: 0.7;
+}
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+}
+
+.use {
+    position: relative;
+    & .item {
+        position: absolute;
+        bottom: 10%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 80%;
+    }
+}
+
+.faq {
+    margin-bottom: 200px;
+}
+
+.faq-title {
+    width: 10%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.qa-1 {
+    max-width: 700px;
+    width: 60%;
+    margin-bottom: 7px;
+    border: 1px solid #017fcb;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.qa-1 summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1em 2em 1em 3em;
+    color: #333;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Noto Sans JP';
+}
+
+.qa-1 summary::before,
+.qa-1 p::before {
+    position: absolute;
+    left: 1em;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.qa-1 summary::before {
+    color: #017fcb;
+    content: "Q";
+}
+
+.qa-1 summary::after {
+    transform: translateY(-25%) rotate(45deg);
+    width: 7px;
+    height: 7px;
+    margin-left: 10px;
+    border-bottom: 3px solid #017fcb;
+    border-right: 3px solid #017fcb;
+    content: '';
+    transition: transform .5s;
+}
+
+.qa-1[open] summary::after {
+    transform: rotate(225deg);
+}
+
+.qa-1 p {
+    position: relative;
+    transform: translateY(-10px);
+    opacity: 0;
+    margin: 0;
+    padding: .3em 3em 1.5em;
+    color: #333;
+    transition: transform .5s, opacity .5s;
+    font-family: 'Noto Sans JP';
+    line-height: 1.8;
+}
+
+.qa-1 p small {
+    font-size: 0.8;
+}
+.qa-1 a img {
+    width: 10%;
+}
+
+.qa-1 a:hover {
+    opacity: 0.5;
+}
+
+.qa-1[open] p {
+    transform: none;
+    opacity: 1;
+}
+
+.qa-1 p::before {
+    color: #017fcb;
+    line-height: 1.2;
+    content: "A";
+}
+
+footer {
+    background-color: #143d7d;
+    padding: 30px 30px;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+}
+
+.product-details {
+    margin-bottom: 50px;
+}
+
+.product-details h2 {
+    font-size: 2.0vw;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+table {
+    border-collapse:  collapse; 
+    margin: 0 auto;
+    width: 40%;
+}
+
+tr:nth-child(odd) {
+    background-color:  #ddd;    
+}
+
+th,td {
+    padding: 10px 20px;    
+    text-align: left;
+    font-size: 1.1vw;
+
+}
+
+
+
+td {
+    line-height: 1.8;
+}

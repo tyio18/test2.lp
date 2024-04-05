@@ -1,0 +1,988 @@
+
+@media only screen and (max-width: 750px) {
+    .pc { 
+        display: none !important; 
+    }
+
+    .sp {
+        display: block !important; 
+    }
+
+    .mainvisual {
+        position: relative;
+        & .copy{
+          position: absolute;
+          bottom: 73%;
+          margin: auto;
+          left: 10%;
+          font-family: 'Zen Old Mincho';
+          font-weight: 400;
+          font-size: 5vw;
+        }
+    }
+
+    .cva {
+        flex-flow: column;
+        text-align: center;
+    }
+
+    .cva img {
+        width: 40%;
+    }
+    
+    .content {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .btn-area h2 {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+
+    .teiki-application {
+        font-size: 16px;
+    }
+
+    .price {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .price span {
+        font-size: 14px;
+    }
+    .teiki img {
+        width: 80%;
+    }
+    .tanpin img {
+        width: 80%;
+    }
+    
+    .tanpin-application {
+        font-size: 16px;
+
+    }
+    .onayami {
+        position: relative;
+        & .question {
+          position: absolute;
+          bottom: 87%;
+          left: 0%;
+          right: 0;
+          text-align: center;
+          font-weight: 400;
+          font-size: 20px;
+        }
+    }
+
+    .question span {
+        color: #017fcb;
+        font-size: 30px;
+    }
+    .onayami {
+        position: relative;
+        & .care {
+            position: absolute;
+            bottom: 2%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 60%;
+        }
+    }
+    .onayami-second {
+        position: relative;
+        & .line{
+            position: absolute;
+            bottom: 96%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 1%;
+        }
+    }
+    .onayami-second {
+        position: relative;
+        & .cause {
+            position: absolute;
+            bottom: 92%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            font-weight: 400;
+            font-size: 2.7vw;
+            width: 80%;
+        }
+    }
+
+    .onayami-second {
+        position: relative;
+        & .simisiwa {
+            position: absolute;
+            bottom: 80%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 80%;
+        }
+    }
+
+    .simi {
+        flex-flow: column;
+        text-align: center;
+    }
+    .simi-img {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .simi .right {
+        width: 90%;
+    }
+
+    .simi .simi-cause {
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    .simi .right .text {
+        font-size: 16px;
+        margin: 0 auto;
+        margin-top: 10px;
+        text-align: left;
+        line-height: 1.8;
+    }
+    .simi .text {
+        margin: 20px 0 0 0;
+    }
+
+    .onayami-second {
+        position: relative;
+        & .simi {
+            position: absolute;
+            bottom: 55%;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+    }
+    .siwa {
+        flex-flow: column;
+        text-align: center;
+    }
+    .siwa-img {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+
+    .siwa .right {
+    margin: 0 0 0 20px;
+    padding: 0;
+    width: 90%;
+    }
+
+    .siwa .siwa-cause {
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    .siwa .right .text {
+        font-size: 16px;
+        margin: 0 auto;
+        margin-top: 10px;
+        text-align: left;
+        line-height: 1.8;
+    }
+
+    .siwa .right .text{
+        margin: 20px 0 0 0;
+    }
+    .onayami-second {
+        position: relative;
+        & .siwa{
+            position: absolute;
+            bottom: 27%;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+    }
+    .cause-text {
+        color: #fff;
+        background-color: #017fcb;
+        padding: 10px 20px;
+        font-family: 'Noto Sans JP';
+        font-size: 14px;
+        line-height: 1.8;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .explanation {
+        position: relative;
+        & .moyamoya{
+            position: absolute;
+            bottom: 90%;
+            left: 80%;
+            margin: auto;
+            width: 10%;
+        }
+    }
+
+    .onayami-second {
+        position: relative;
+        & .explanation{
+            position: absolute;
+            bottom: 16%;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+    }
+
+    .onayami-second {
+        position: relative;
+        & .sine{
+            position: absolute;
+            bottom: 4%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 90%;
+        }
+    }
+
+    .kaizen {
+        position: relative;
+        & .sonomaeni{
+            position: absolute;
+            bottom: 99.6%;
+            left: 11%;
+            width: 40%;
+        }
+    }
+
+    .dots {
+        font-size: 20px;
+    }
+    
+    .kaizen p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .kaizen {
+        position: relative;
+        & .bihaku-siwa {
+            position: absolute;
+            bottom: 65%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 90%;
+        }
+    }
+
+    .kaizen {
+        position: relative;
+        & .features {
+            position: absolute;
+            bottom: 55%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 80%;
+        }
+    }
+
+    .text-second {
+        line-height: 1.8;
+        font-size: 13px;
+    }
+    .color {
+        font-size: 16px;
+    }
+
+    .second {
+        font-size: 16px;
+        font-family: 'Zen Kurenaido';
+    }
+    .kaizen {
+        position: relative;
+        & .text-second {
+            position: absolute;
+            bottom: 44%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 80%;
+        }
+    }
+    .kaizen {
+        position: relative;
+        & .lotion {
+            position: absolute;
+            bottom: 10%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 85%;
+        }
+    }
+
+    .attention {
+        font-size: 7px;
+    }
+
+    .kaizen {
+        position: relative;
+        & .attention {
+            position: absolute;
+            bottom: 3%;
+            left: 18%;
+            right: 0;
+        }
+    }
+    .benefit-text {
+        font-size: 20px;
+    }
+
+    .benefit-text .color {
+        font-size: 20px;
+    }
+
+    .big {
+        font-size: 23px;
+    }
+
+    .benefit {
+        position: relative;
+        & .benefit-text {
+            position: absolute;
+            bottom: 44%;
+            left: 40%;
+            right: 0;
+        }
+    }
+
+    .attention-second {
+        font-size: 8px;
+    }
+
+    .benefit {
+        position: relative;
+        & .attention-second {
+            position: absolute;
+            bottom: 10%;
+            left: 50%;
+            right: 0;
+        }
+    }
+
+    .point-first {
+        position: relative;
+        & .features-title {
+            position: absolute;
+            bottom: 95.5%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 80%;
+        }
+    }
+
+    .point-first {
+        position: relative;
+        & .point {
+            position: absolute;
+            bottom: 93.5%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 20%;
+        }
+    }
+
+    .point-title {
+        font-size: 25px;
+    }
+
+    .point-first {
+        position: relative;
+        & .point-title{
+            position: absolute;
+            bottom: 91.5%;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+    }
+
+    .second-title {
+        font-size: 20px;
+    }
+
+    .under-line {
+        width: 80%;
+    }
+
+    .point-first {
+        position: relative;
+        & .second-title{
+            position: absolute;
+            bottom: 90.5%;
+            left: 0;
+            right: 0;
+        }
+    }
+
+    .point-first {
+        position: relative;
+        & .under-line{
+            position: absolute;
+            bottom: 90%;
+            left: 0;
+            right: 0;
+        }
+    }
+
+    .text-area  {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .text-area p {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .point-first {
+        position: relative;
+        & .text-area{
+            position: absolute;
+            bottom: 86.5%;
+            left: 0;
+            right: 0;
+        }
+    }
+
+    .point-first {
+        position: relative;
+        & .pure-niacin{
+            position: absolute;
+            bottom: 80.5%;
+            left: 0;
+            right: 0;
+            width: 80%;
+            margin: auto;
+        }
+    }
+
+    .text-area-second {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .text-area-second p {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .point-first {
+        position: relative;
+        & .text-area-second{
+            position: absolute;
+            bottom: 76.5%;
+            left: 0;
+            right: 0;
+            width: 70%;
+            margin: auto;
+        }
+    }
+
+    .attention-second {
+        text-align: left;
+        font-size: 2vw;
+    }
+
+    .point-first {
+        position: relative;
+        & .attention-second{
+            position: absolute;
+            bottom:75%;
+            left: 14%;
+            right: 0;
+        }
+    }
+
+    .bihaku img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .point-first {
+        position: relative;
+        & .bihaku{
+            position: absolute;
+            bottom:70.5%;
+            left: 0;
+            right: 0;
+            text-align: center;
+        }
+    }
+
+    .siwa-kaizen img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .point-first {
+        position: relative;
+        & .siwa-kaizen{
+            position: absolute;
+            bottom:66.5%;
+            left: 0;
+            right: 0;
+            text-align: center;
+        }
+    }
+
+    .point-first {
+        position: relative;
+        & .point-second{
+            position: absolute;
+            bottom:61.5%;
+            left: 0;
+            right: 0;
+            width: 20%;
+            margin: auto;
+        }
+    }
+
+    .point-second-title {
+        font-size: 20px; 
+    }
+
+    .point-first {
+        position: relative;
+        & .point-second-title{
+            position: absolute;
+            bottom: 60%;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+    }
+
+    .point-second-text {
+        width: 90%;
+        margin: 0 auto;
+    }
+ 
+    .point-second-text  p{
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .point-first {
+        position: relative;
+        & .point-second-text{
+            position: absolute;
+            bottom: 55%;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+    }
+
+    .point-first {
+        position: relative;
+        & .person-img{
+            position: absolute;
+            bottom: 50%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 90%;
+        }
+    }
+    .point-second-text-area {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .point-second-text-area p {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .point-first {
+        position: relative;
+        & .point-second-text-area{
+            position: absolute;
+            bottom: 43%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 80%;
+        }
+    }
+
+    .point-second-attention {
+        font-size: 8px;
+    }
+
+    .point-first {
+        position: relative;
+        & .point-second-attention{
+            position: absolute;
+            bottom:42%;
+            left: 9.5%;
+            right: 0;
+        }
+    }
+
+    .point-first {
+        position: relative;
+        & .point-third {
+            position: absolute;
+            bottom:37%;
+            left: 0%;
+            right: 0;
+            margin: auto;
+            width: 20%;
+        }
+    }
+
+    .point-third-title {
+        font-size: 20px;     
+    }
+
+    .point-first {
+        position: relative;
+        & .point-third-title {
+            position: absolute;
+            bottom:35.5%;
+            left: 0%;
+            right: 0;
+            margin: auto;
+        }
+    }
+
+    .ceramide-img {
+        width: 20%;
+    }
+
+    .ceramide .text-content {
+        width: 60%;
+    }
+
+    .ceramide p {
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+    .point-first {
+        position: relative;
+        & .ceramide {
+            position: absolute;
+            bottom:32.5%;
+            left: 0%;
+            right: 0;
+            margin: auto;
+        }
+    }
+
+    .hyaluronic-img {
+        width: 20%;
+    }
+
+    .hyaluronic .text-content {
+        width: 60%;
+    }
+
+    .hyaluronic p {
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+    .point-first {
+        position: relative;
+        & .hyaluronic {
+            position: absolute;
+            bottom:29.5%;
+            left: 0%;
+            right: 0;
+        }
+    }
+
+    .chinpi-img {
+        width: 20%;
+    }
+
+    .chinpi .text-content {
+        width: 60%;
+    }
+
+    .chinpi p {
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+    .point-first {
+        position: relative;
+        & .chinpi {
+            position: absolute;
+            bottom:24.5%;
+            left: 0%;
+            right: 0;
+            margin: auto;
+        }
+    }
+
+    .amachaduru-img {
+        width: 20%;
+    }
+
+    .amachaduru .text-content {
+        width: 60%;
+    }
+    .amachaduru p {
+        font-size: 14px;
+        margin-top: 0;
+    }
+    
+    .point-first {
+        position: relative;
+        & .amachaduru {
+            position: absolute;
+            bottom:20%;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+    }
+
+    .support-img {
+        width: 20%;
+    }
+
+    .support .text-content {
+        width: 60%;
+    }
+    
+    .support p {
+        font-size: 14px;
+        margin-top: 0;
+    }
+    
+    .point-first {
+        position: relative;
+        & .support {
+            position: absolute;
+            bottom:15%;
+            left: 0%;
+            right: 0;
+            margin: auto;
+        }
+    }
+
+    .point-third-attention {
+        text-align: left;
+        font-size: 8px;
+    }
+
+    .point-first {
+        position: relative;
+        & .point-third-attention{
+            position: absolute;
+            bottom:13%;
+            left: 7%;
+            right: 0;
+            margin: auto;
+        }
+    }
+
+    .point-first {
+        position: relative;
+        & .benefit-second {
+            position: absolute;
+            bottom: 10.5%;
+            left: 13%;
+            right: 0;
+            width: 50%;
+        }
+    }
+
+    .point-first {
+        position: relative;
+        & .benefit-text {
+            position: absolute;
+            bottom: 5%;
+            left: 4%;
+            right: 0;
+            width: 90%;
+        }
+    }
+
+    .voice-title {
+        font-size: 16px;
+    }
+
+    .under-bar {
+        width: 40%;
+    }
+    
+    .voice h2 {
+        font-size: 45px;
+    }
+
+    .graph {
+        width: 80%;
+    }
+
+    .voice-text {
+        font-size: 20px;
+    }
+
+    .voice-text span {
+        font-size: 30px;
+    }
+    
+    .voice-flex .flex {
+        display: flex;
+        text-align: center;
+    }
+    .voice-flex img {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .voice-flex p {
+        width: 70%;
+        text-align: left;
+        margin: 0 auto;
+        line-height: 1.8;
+    }
+
+    .use {
+        position: relative;
+        & .title {
+            position: absolute;
+            bottom: 85%;
+            left: 0;
+            right: 0;
+            width: 90%;
+            margin: auto;
+        }
+    }
+
+    .use-flex {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .step-img {
+        width: 40%;
+    }
+
+    .use-title {
+        font-size: 20px;
+    }
+
+    .use-text {
+        font-size: 14px;
+    }
+
+    .use {
+        position: relative;
+        & .use-flex {
+            position: absolute;
+            bottom: 65%;
+            left: 2%;
+            right: 0;
+        }
+    }
+
+    .use {
+        position: relative;
+        & .use-flex-second {
+            position: absolute;
+            bottom: 45%;
+            left: 10%;
+            right: 0;
+        }
+    }
+
+    .use {
+        position: relative;
+        & .use-flex-third {
+            position: absolute;
+            bottom: 32%;
+            left: 4%;
+            right: 0;
+        }
+    }
+
+    .use {
+        position: relative;
+        & .step-dot {
+            position: absolute;
+            bottom: 63%;
+            left: 16%;
+            right: 0;
+            width: 7%;
+        }
+    }
+
+    .use {
+        position: relative;
+        & .step-dot-second {
+            position: absolute;
+            bottom: 42%;
+            left: 16%;
+            right: 0;
+            width: 7%;
+        }
+    }
+
+    .use {
+        position: relative;
+        & .procedure {
+            position: absolute;
+            bottom: 24%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 70%;
+        }
+    }
+
+    .faq {
+        margin-bottom: 50px;
+    }
+    
+    .faq-title {
+        width: 30%;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .qa-1 {
+        width: 90%;
+    }
+
+    .product-details h2 {
+        font-size: 5.0vw;
+        margin-bottom: 20px;
+    }
+
+    table {
+        width: 80%;
+    }
+
+    th,td {
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+}
